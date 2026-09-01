@@ -88,8 +88,11 @@ Future Demand Prediction
 Inventory Risk Analysis
        ↓
 Purchase Recommendation
+```
 
-AI Prediction Example
+### AI Prediction Example
+
+```text
 Product: Laptop
 
 Current Stock: 15 units
@@ -104,66 +107,80 @@ May       → 60 units
 June      → 70 units
 
 Predicted Demand: 80 units
-
 Recommended Purchase: 65 units
-
 Inventory Risk: HIGH
+```
 
 ## Screenshots
 
 ### Dashboard
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/dashboard.png" width="80%">
+  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/dashboard.png" width="80%" alt="Dashboard">
 </p>
 
 ### Products
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/products.png" width="80%">
+  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/products.png" width="80%" alt="Products">
 </p>
 
 ### Orders
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/orders.png" width="80%">
+  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/orders.png" width="80%" alt="Orders">
 </p>
 
 ### Order Details
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/order-details.png" width="80%">
+  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/order-details.png" width="80%" alt="Order Details">
 </p>
 
 ### AI Demand Prediction
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/ai-prediction.png" width="80%">
+  <img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/ai-prediction.png" width="80%" alt="AI Demand Prediction">
 </p>
 
-Technology Stack
-Backend
-Python
-Django
-Database
-SQLite during development
-Django ORM
-Data Analysis
-Pandas
-Machine Learning
-Scikit-learn
-Linear Regression
-Frontend
-HTML
-CSS
-Bootstrap
-JavaScript
-Chart.js
-Development Tools
-Git
-GitHub
-VS Code
-Project Structure
+## Technology Stack
+
+### Backend
+
+- Python
+- Django
+
+### Database
+
+- SQLite during development
+- Django ORM
+
+### Data Analysis
+
+- Pandas
+
+### Machine Learning
+
+- Scikit-learn
+- Linear Regression
+
+### Frontend
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Chart.js
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+## Project Structure
+
+```text
 Bulk Order Management System/
 │
 ├── accounts/
@@ -217,53 +234,91 @@ Bulk Order Management System/
 ├── .gitignore
 ├── manage.py
 └── README.md
-Installation
-1. Clone the Repository
+```
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Shivutech/bulk-order-management-system.git
-2. Open the Project
+```
+
+### 2. Open the Project
+
+```bash
 cd bulk-order-management-system
-3. Create Virtual Environment
+```
+
+### 3. Create Virtual Environment
+
+```bash
 python -m venv venv
-4. Activate Virtual Environment
+```
+
+### 4. Activate Virtual Environment
 
 For Windows:
 
+```bash
 venv\Scripts\activate
-5. Install Dependencies
+```
+
+### 5. Install Dependencies
+
+```bash
 pip install django pandas scikit-learn
-6. Apply Migrations
+```
+
+### 6. Apply Migrations
+
+```bash
 python manage.py migrate
-7. Create Admin User
+```
+
+### 7. Create Admin User
+
+```bash
 python manage.py createsuperuser
-8. Run the Development Server
+```
+
+### 8. Run the Development Server
+
+```bash
 python manage.py runserver
+```
 
 Open the application:
 
+```text
 http://127.0.0.1:8000/
-Main Pages
-Dashboard
-/
-Products
-/products/
-Orders
-/orders/
-AI Demand Prediction
-/ai/
-Django Admin
-/admin/
-Demo AI Data
+```
+
+## Main Pages
+
+| Page | URL |
+|---|---|
+| Dashboard | `/` |
+| Products | `/products/` |
+| Orders | `/orders/` |
+| AI Demand Prediction | `/ai/` |
+| Django Admin | `/admin/` |
+
+## Demo AI Data
 
 For testing the demand prediction system, historical demo data can be generated using:
 
+```bash
 python manage.py create_demo_data
+```
 
 This creates sample historical order data for the available product.
 
-How Inventory Works
+## How Inventory Works
 
 When a new order is created:
 
+```text
 Requested Quantity
         ↓
 Check Available Stock
@@ -277,27 +332,30 @@ Create Order   Reject Order
 Deduct Stock
  ↓
 Calculate Total
+```
 
 Database transactions are used so that if an order fails because of insufficient stock, the entire transaction is rolled back.
 
-Future Improvements
-Advanced demand forecasting models
-Multiple-product AI forecasting
-Supplier management
-Purchase order generation
-Automated stock alerts
-Email notifications
-PDF invoice generation
-Sales forecasting
-Advanced business reports
-User authentication and role-based access
-REST API
-Cloud database integration
-Deployment to production
-Author
+## Future Improvements
 
-Shivutech
+- Advanced demand forecasting models
+- Multiple-product AI forecasting
+- Supplier management
+- Purchase order generation
+- Automated stock alerts
+- Email notifications
+- PDF invoice generation
+- Sales forecasting
+- Advanced business reports
+- User authentication and role-based access
+- REST API
+- Cloud database integration
+- Deployment to production
 
-License
+## Author
+
+**Shivutech**
+
+## License
 
 This project is developed for educational and project demonstration purposes.
