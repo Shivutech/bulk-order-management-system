@@ -106,6 +106,28 @@ Predicted Demand: 80 units
 
 Recommended Purchase: 65 units
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Products
+
+![Products](screenshots/products.png)
+
+### Orders
+
+![Orders](screenshots/orders.png)
+
+### Order Details
+
+![Order Details](screenshots/order-details.png)
+
+### AI Demand Prediction
+
+![AI Demand Prediction](screenshots/ai-prediction.png)
+
 Inventory Risk: HIGH
 Technology Stack
 Backend
