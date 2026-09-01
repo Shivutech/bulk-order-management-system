@@ -146,7 +146,7 @@ Order Details
 
 <p align="center">
 
-<img src="screenshots/ai-prediction.png" width="80%">
+<img src="https://raw.githubusercontent.com/Shivutech/bulk-order-management-system/main/screenshots/ai-prediction.png" width="80%">
 
 </p>
 
