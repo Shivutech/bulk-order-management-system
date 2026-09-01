@@ -111,7 +111,9 @@ Inventory Risk: HIGH
 
 Screenshots
 Dashboard
-![Dashboard](screenshots/dashboard.png)
+## Screenshots
+
+<img src="screenshots/dashboard.png" alt="Dashboard" width="800">
 Products
 ![Products](screenshots/products.png)
 Orders
