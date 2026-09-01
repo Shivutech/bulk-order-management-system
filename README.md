@@ -111,15 +111,15 @@ Inventory Risk: HIGH
 
 Screenshots
 Dashboard
-
+![Dashboard](screenshots/dashboard.png)
 Products
-
+![Products](screenshots/products.png)
 Orders
-
+![Orders](screenshots/orders.png)
 Order Details
 
 AI Demand Prediction
-
+![AI Demand Prediction](screenshots/ai-prediction.png)
 Technology Stack
 Backend
 Python
