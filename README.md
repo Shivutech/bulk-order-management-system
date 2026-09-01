@@ -109,19 +109,48 @@ Recommended Purchase: 65 units
 
 Inventory Risk: HIGH
 
-Screenshots
-Dashboard
 ## Screenshots
+# 📄 Dashboard
 
-<img src="screenshots/dashboard.png" alt="Dashboard" width="800">
-Products
-![Products](screenshots/products.png)
-Orders
-![Orders](screenshots/orders.png)
+<p align="center">
+
+<img src="screenshots/dashboard.png" width="80%">
+
+</p>
+
+---
+
+# 📄 Products
+
+<p align="center">
+
+<img src="screenshots/products.png" width="80%">
+
+</p>
+
+---
+
+# 📄 Orders
+
+<p align="center">
+
+<img src="screenshots/orders.png" width="80%">
+
+</p>
+
+---
 Order Details
 
-AI Demand Prediction
-![AI Demand Prediction](screenshots/ai-prediction.png)
+
+# 📄 AI Demand Prediction
+
+<p align="center">
+
+<img src="screenshots/ai-prediction.png" width="80%">
+
+</p>
+
+---
 Technology Stack
 Backend
 Python
