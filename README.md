@@ -95,40 +95,31 @@ Product: Laptop
 Current Stock: 15 units
 
 Historical Demand:
-January   → 20
-February  → 30
-March     → 40
-April     → 50
-May       → 60
-June      → 70
+
+January   → 20 units
+February  → 30 units
+March     → 40 units
+April     → 50 units
+May       → 60 units
+June      → 70 units
 
 Predicted Demand: 80 units
 
 Recommended Purchase: 65 units
 
-## Screenshots
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Products
-
-![Products](screenshots/products.png)
-
-### Orders
-
-![Orders](screenshots/orders.png)
-
-### Order Details
-
-![Order Details](screenshots/order-details.png)
-
-### AI Demand Prediction
-
-![AI Demand Prediction](screenshots/ai-prediction.png)
-
 Inventory Risk: HIGH
+
+Screenshots
+Dashboard
+
+Products
+
+Orders
+
+Order Details
+
+AI Demand Prediction
+
 Technology Stack
 Backend
 Python
@@ -151,7 +142,6 @@ Development Tools
 Git
 GitHub
 VS Code
-
 Project Structure
 Bulk Order Management System/
 │
@@ -196,31 +186,38 @@ Bulk Order Management System/
 │   ├── orders/
 │   └── products/
 │
+├── screenshots/
+│   ├── dashboard.png
+│   ├── products.png
+│   ├── orders.png
+│   ├── order-details.png
+│   └── ai-prediction.png
+│
 ├── .gitignore
 ├── manage.py
 └── README.md
 Installation
-1. Clone the repository
+1. Clone the Repository
 git clone https://github.com/Shivutech/bulk-order-management-system.git
-2. Open the project
+2. Open the Project
 cd bulk-order-management-system
-3. Create virtual environment
+3. Create Virtual Environment
 python -m venv venv
-4. Activate virtual environment
+4. Activate Virtual Environment
 
-Windows:
+For Windows:
 
 venv\Scripts\activate
-5. Install dependencies
+5. Install Dependencies
 pip install django pandas scikit-learn
-6. Apply migrations
+6. Apply Migrations
 python manage.py migrate
-7. Create admin user
+7. Create Admin User
 python manage.py createsuperuser
-8. Run the development server
+8. Run the Development Server
 python manage.py runserver
 
-Open:
+Open the application:
 
 http://127.0.0.1:8000/
 Main Pages
@@ -283,5 +280,3 @@ Shivutech
 License
 
 This project is developed for educational and project demonstration purposes.
-
-
